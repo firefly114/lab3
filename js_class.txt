@@ -1,0 +1,32 @@
+class A {
+  #str() {};
+  name() {};
+  #num() {};
+  calssname;
+}
+
+class B extends A {
+  #str() {};
+}
+
+class UB extends A {
+  str() {};
+}
+
+class C extends A {
+  str;
+}
+
+class D extends C {
+  #str;
+}
+
+class E extends C {
+  str;
+}
+
+class F extends E {
+  #str;
+  name;
+  cost;
+}
